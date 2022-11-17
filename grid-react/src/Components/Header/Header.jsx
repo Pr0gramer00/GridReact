@@ -10,8 +10,11 @@ const Kliknuto = ()=> {
 const Header = () => {
   return (
     <div className="container">
-      <button onClick={Kliknuto}>Izmijeniti</button>
-      <nav className='navbar' id='klik1'>Navbar</nav>
+      
+      <nav className='navbar' id='klik1'>Navbar
+      
+      <button className='dugme' onClick={Kliknuto}>Izmijeniti</button>
+      </nav>  
       
       <div className="sidebar" id='klik2'>Sidebar</div>
       <div className="box" id='klik3'>Box1</div>

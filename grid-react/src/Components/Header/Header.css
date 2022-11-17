@@ -53,3 +53,14 @@
     align-items: center;
     justify-content: center;
 }
+.dugme {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    height: 40px;
+    width: 80px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 10px;
+}
